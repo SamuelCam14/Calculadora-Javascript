@@ -1,0 +1,79 @@
+/* Add styles here */
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    font-family: "Share Tech Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    border: #e2e2e2 2px solid;
+    padding: 25px 25px;
+    border-radius: 10px;
+}
+
+.teclas {
+    text-align: center;
+}
+
+input[type="button"] {
+    width: 80px;
+    height: 40px;
+    margin: 5px 0;
+    font-size: 16px;
+    padding: 0;
+    background-color: #eee;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Share Tech Mono", monospace;
+}
+
+input[type="button"]:hover {
+    background-color: #e2e2e2;
+}
+
+input.btn-clear {
+    width: 165px;
+}
+
+input.display {
+    display: block;
+    box-sizing: border-box;
+    width: 345px;
+    height: 50px;
+    font-size: 1.5rem;
+    text-align: end;
+    color: #4d4d4d;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    border: #e2e2e2 2px solid;
+    border-radius: 6px;
+
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+
+}
+
+p {
+    font-size: 0.75rem;
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+}
